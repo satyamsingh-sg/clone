@@ -1,0 +1,96 @@
+/* FacebookLogin.css */
+
+.facebook-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+    top: 0px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input {
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+h2{
+    color: #3b5998;
+}
+.create{
+
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    border-width: 1px;
+      
+    background-color: white;
+    padding: 10px 50px;
+    border-style: solid;
+
+}
+.create:hover{
+    background-color: #4ef948;
+}
+button {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+   color: white;
+   border-style: none;
+   margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+   
+}
+ul{
+    list-style-type: none;  
+   font-size: 10px;
+   font-weight: bold;
+   color: rgb(100, 100, 99);
+}
+
+.parent { 
+    display: grid; 
+    position:absolute;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 40px; 
+   
+    width: 50%; 
+    margin-left: 60px;
+    bottom: 50px;
+   
+} 
+.clild { 
+    margin: 10px; 
+    border: 1px solid red; 
+}
